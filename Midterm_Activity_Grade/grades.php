@@ -6,7 +6,7 @@
         if($grade >=70){
             echo $name,",you passed!";
         }
-        elseif($grade>60){
+        elseif($grade>=60){
             echo $name,", you need take a remedial.";
         }
         else{
